@@ -48,8 +48,13 @@ body {
   margin: auto;
   text-align: center;
 }
+.experience p{
+  margin: 40px 30px;
+  margin-bottom: 40px;
+}
 table{
   margin: auto;
+  margin-top: 30px;
 }
 h1 {
   font-size: 30px;
@@ -136,6 +141,16 @@ button:hover, button:focus, .button:hover, .button:focus {
  width: 33%;
  padding-left: 5%;
 }
+.form-field{
+  margin: 10px;
+}
+#contact-message{
+  width: 400px;
+  height: 300px;
+}
+.contact-info{
+  text-align: center;
+}
 @supports (display: grid) {
  .grid {
    display: -ms-grid;
@@ -154,6 +169,18 @@ button:hover, button:focus, .button:hover, .button:focus {
  }
 }
 .footer{
+  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contact-form{
   clear: both;
   display: -webkit-box;
   display: -ms-flexbox;
